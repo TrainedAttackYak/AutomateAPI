@@ -44,7 +44,7 @@ function Get-AutomateLocationExtraFields {
   )
 
   $Params = @{
-      Endpoint = "locations/$Computer/extrafields"
+      Endpoint = "locations/$Location/extrafields"
       Page = 1
   }
   $EDFs = Get-AutomateApiGeneric @Params
